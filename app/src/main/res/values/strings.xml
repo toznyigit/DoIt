@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Birşey Yap!</string>
+    <string name="main_menu">Ana Menu</string>
+    <string name="brand_name">Birşey Yap</string>
+    <string name="player_name">Oyuncu Adı</string>
+    <string name="_2_players">2 Oyuncu</string>
+    <string name="_3_players">3 Oyuncu</string>
+    <string name="_4_players">4 Oyuncu</string>
+    <string name="_5_players">5 Oyuncu</string>
+    <string name="_6_players">6 Oyuncu</string>
+    <string name="add">+</string>
+    <string name="go">Git!</string>
+    <string name="quarter_hour">15 dakika</string>
+    <string name="half_hour">30 dakika</string>
+    <string name="one_hour">60 dakika</string>
+    <string name="ten_point">10 puan</string>
+    <string name="twenty_five_point">25 puan</string>
+    <string name="fifty_point">50 puan</string>
+    <string name="fail">KALDI</string>
+    <string name="success">GEÇTİ</string>
+    <string name="need_at_lest_2_players_for_start">Başlamak için en az 2 oyuncu gerekir</string>
+    <string name="penaltyQuest">Zaman bitti! 3 puan ceza aldın</string>
+    <string name="successQuest">Geçtin! 1 puan kazandın </string>
+    <string name="failQuest">Kaldın! 1 puan kaybettin </string>
+    <string name="emptyNameField">Oyuncu ismi en az 2 harf uzunluğunda olmalıdır.</string>
+    <string name="maxPlayerError">Daha fazla oyuncu ekleyemezsiniz.</string>
+    <string name="musicError">Müzik oynatıcı hatayla karşılaştı</string>
+    <string name="ready">Hazır</string>
+    <string-array name="questions_array">
+        <item>5 kez at gibi kişne. 20 saniyen var.</item>
+        <item>Daft Punk - Get Lucky söyle. Arkadaşların beğenirse kazanırsın. 25 saniyen var.</item>
+        <item>Camı aç. Dışarıya var gücünle bağırarak "Saat Kaç" diye sor. 10 saniyen var.</item>
+        <item>Rastgele birini ara, "Zaman Yolcusu" olduğunu söyle ve tarihi sor. Kimse açmazsa puan kaybedersin, arayacağın kişiyi ona göre seç. Bu arada 60 saniyen var.</item>
+        <item>Galerindeki son 5 fotoğrafı sil. 30 saniyen var.</item>
+        <item>Instagram\'a saçma bir hareket yaptığın hikaye at. Oyun bitene kadar silme. 30 saniyen var.</item>
+        <item>Arkadaşın ensenden aşağı soğuk su/buz döksün. 20 saniyen var.</item>
+        <item>Gruptan birini seç ve ona astokriş şiir yaz/söyle. 50 saniyen var.</item>
+        <item>Bir hemcinsine ilanı aşkta bulun. Videosunu hikayende paylaş. 60 saniyen var.</item>
+        <item>Bir şarkı aç ve göbeğinle 10 saniye ritim tut. 30 saniyen var.</item>
+        <item>Ağzında suyla zılgıt at. 15 saniyen var.</item>
+    </string-array>
+
+</resources>
