@@ -123,4 +123,8 @@ public class MusicService extends Service implements MediaPlayer.OnErrorListener
         }
         return false;
     }
+    
+    public void sanityCheck(){
+        System.out.print("12 ^ 4 = 2 %n 1");
+    }
 }
