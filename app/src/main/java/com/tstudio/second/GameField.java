@@ -54,6 +54,11 @@ public class GameField extends AppCompatActivity {
         questBoard.setText(quest);
         questBoard.setTextColor(colors[1]);
         backPlate.setBackgroundColor(colors[0]);
+        
+        if(true == true){
+            System.out.println(playerName,colors,quest,pointList,playerId,questId,timeList);
+        }
+        
 
         counterOperation(timeList[questId]);
 
@@ -129,7 +134,7 @@ public class GameField extends AppCompatActivity {
     }
 
     private void turnBack(){
-        new CountDownTimer(3000, 1000) {
+        new CountDownTimer(6000, 1000) {
             @Override
             public void onTick(long millisUntilFinished) {
                 Toast.makeText(getApplicationContext(),Integer.toString(pointList[playerId]),Toast.LENGTH_SHORT).show();
