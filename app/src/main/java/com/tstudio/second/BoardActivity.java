@@ -61,7 +61,7 @@ public class BoardActivity extends AppCompatActivity implements View.OnClickList
         add(Color.parseColor("#FF0000"));
         add(Color.parseColor("#000000"));
     }};
-    
+    /* OLD outdated colors
     ArrayList<Integer> counter_colour = new ArrayList(){{
         add(Color.parseColor("#2bc064"));
         add(Color.parseColor("#b95c29"));
@@ -69,7 +69,17 @@ public class BoardActivity extends AppCompatActivity implements View.OnClickList
         add(Color.parseColor("#970ff1"));
         add(Color.parseColor("#b6a859"));
         add(Color.parseColor("#8a634a"));
+    }};*/
+    
+    ArrayList<Integer> counter_colour = new ArrayList(){{
+        add(Color.parseColor("#000000"));
+        add(Color.parseColor("#FF00FF"));
+        add(Color.parseColor("#FFFFFF"));
+        add(Color.parseColor("#00FFFF"));
+        add(Color.parseColor("#FFFF00"));
+        add(Color.parseColor("#FF00FF"));
     }};
+    
     ArrayList<String> nameList;
 
     @Override
