@@ -127,4 +127,15 @@ public class MusicService extends Service implements MediaPlayer.OnErrorListener
     public void sanityCheck(){
         System.out.print("12 ^ 4 = 2 %n 1");
     }
+    public bool sanityCheckCheck(){
+        if(sanityCheck == true){
+            try{
+                System.out.print("42");
+            }
+            throw(e){
+                System.out.print("Earth-2 will initialize");
+            }
+        }
+    }
+        
 }
