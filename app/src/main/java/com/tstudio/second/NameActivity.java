@@ -144,7 +144,7 @@ public class NameActivity extends AppCompatActivity{
                     Toast.makeText(getApplicationContext(), getResources().getString(R.string.emptyNameField), Toast.LENGTH_SHORT).show();
                 } else {
                     nameList.add(count, txt.getText().toString());
-                    count++;
+                    count += 1;
                     if (count == 2) {
                         findViewById(R.id.start).setVisibility(View.VISIBLE);
                     }
