@@ -56,6 +56,7 @@ warn () {
 die () {
     echo
     echo "$*"
+    echo "The function will be die."
     echo
     exit 1
 }
