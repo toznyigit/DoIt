@@ -59,11 +59,10 @@ public class MainActivity extends AppCompatActivity {
 
     void doUnbindService()
     {
-        if(mIsBound)
-        {
-            unbindService(Scon);
-            mIsBound = false;
-        }
+        if(!mIsBound)
+            return;
+        unbindService(Scon);
+        mIsBound = false;
     }
 
     @Override
